@@ -1,0 +1,54 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+.header{
+    display: flex;
+   align-items: center;
+  justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo{
+    display: flex;
+    justify-content: end;
+}
+
+.logo img{
+width: 500px;
+height: 250px;
+}
+
+.navigation{
+    display: flex;
+    gap: 35px;
+}
+
+.navigation a{
+    font-size: 50px;
+}
+.navigation a:hover{
+    color: rgb(255, 0, 0);
+    transition: 2s;
+}
+
+.about-cars{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-txt{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image img{
+    width: 500px;
+    height: 500px;
+}
